@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    int a,b,s=0;
+    printf("saisie les notes a et b \n");
+    scanf("%d%d",&a,&b);
+    s=a+b;
+    printf("la somme %d est de \n",s);
+    return 0;
+}
